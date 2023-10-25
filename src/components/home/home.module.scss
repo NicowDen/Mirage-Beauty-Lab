@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  nav {
+    --navPadding: 500px;
+    position: absolute;
+    left: 50%;
+    top: 5px;
+    transform: translate(-50%, 0);
+    z-index: 1;
+    min-width: calc(100vw - var(--navPadding));
+  }
+  .slider {
+    // padding: 32px;
+    min-height: 100vh;
+  }
+}

@@ -1,0 +1,8 @@
+@mixin containersPassive() {
+  background-color: var(--background-color-dark);
+  box-shadow: var(--box-shadow-dark);
+}
+@mixin containersActive() {
+  background-color: var(--background-color-hover);
+  box-shadow: var(--box-shadow);
+}

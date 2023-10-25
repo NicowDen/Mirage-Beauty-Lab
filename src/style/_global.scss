@@ -1,0 +1,39 @@
+html {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 62.5%; //1rem = 16px
+  background-color: var(--color1);
+  font-family: var(--font-text);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-title);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
